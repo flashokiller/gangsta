@@ -7,7 +7,7 @@ bot = telegram_chatbot("config.cfg")
 def make_reply(msg):
     reply = None
     if msg is not None:
-        reply = gizoogle.text(msg)
+        reply = "this bot is no more pls switch to @NohaXbot thnx for your support:)"
     return reply
 
 update_id = None
